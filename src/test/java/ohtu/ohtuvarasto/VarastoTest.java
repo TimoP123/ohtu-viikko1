@@ -117,7 +117,7 @@ public class VarastoTest {
     public void negatiivisenMaaranOttaminenPalauttaaNollan() {
         varasto.lisaaVarastoon(8);
         double saatuMaara = varasto.otaVarastosta(-2);
-        assertEquals(1, saatuMaara, vertailuTarkkuus);
+        assertEquals(0, saatuMaara, vertailuTarkkuus);
     }
     
     @Test
